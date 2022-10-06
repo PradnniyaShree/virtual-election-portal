@@ -12,7 +12,7 @@
       
     <link href="assets/css/signin.css" rel="stylesheet">
   </head>
-  <body class="text-center">
+  <body class="text-center bg-dark">
     
   <main class="container text-center">
   
@@ -25,9 +25,15 @@
           <img src="assets/img/logo.png" width="240" height="80">
         </div>
 
-        <div class="form-floating mb-2">
-          <input type="text" class="form-control" id="username" placeholder="name" name="username">
-          <label for="username">Username</label>
+        <div class="">
+          <div class="form-floating mb-2 col">
+            <input type="text" class="form-control" id="firstname" placeholder="firstname" name="firstname">
+            <label for="firstname">First Name</label>
+          </div>
+          <div class="form-floating mb-2 col">
+            <input type="text" class="form-control" id="lastname" placeholder="lastname" name="lastname">
+            <label for="lastname">Last Name</label>
+          </div>
         </div>
         <div class="form-floating mb-2">
           <input type="text" class="form-control" id="phonenumber" placeholder="+91" name="phone">
